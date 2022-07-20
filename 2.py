@@ -11,8 +11,6 @@ kol_x = []
 vr = []
 delete_a = []
 delete_b = []
-Pustie_stroki = []
-spisok_index_pust_str = []
 # Определяем необходимую ячейку на листе
 Cell_A = ws['A']
 Cell_B = ws['B']
@@ -23,7 +21,6 @@ for i in Cell_A:
 for j in Cell_B:
     vr = [j.value]
     kol.append(vr)
-
 
 # список уникальных значенией "код дирекции"
 j = 0
